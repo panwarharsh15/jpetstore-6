@@ -233,6 +233,11 @@
                 <url>${cargo.maven.containerUrl}</url>
               </zipUrlInstaller>
             </container>
+                 <configuration>
+      <properties>
+        <cargo.servlet.port>9090</cargo.servlet.port>
+      </properties>
+    </configuration>
             <daemon>
               <properties>
                 <cargo.daemon.url>http://localhost:18000</cargo.daemon.url>
